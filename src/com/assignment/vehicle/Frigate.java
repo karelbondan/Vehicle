@@ -16,6 +16,10 @@ public class Frigate implements IsSeaVessel{
 
     }
 
+    public void fireGun(){
+        System.out.println("Gun fired!");
+    }
+
     @Override
     public int getDisplacement() {
         return this.displacement;

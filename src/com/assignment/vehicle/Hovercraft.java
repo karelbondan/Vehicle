@@ -16,6 +16,14 @@ public class Hovercraft implements IsSeaVessel, IsLandVehicle{
 
     }
 
+    public void enterSea(){
+        System.out.println("Vehicle has entered the sea");
+    }
+
+    public void enterLand(){
+        System.out.println("Vehicle has entered the land");
+    }
+
     @Override
     public int getDisplacement() {
         return this.displacement;

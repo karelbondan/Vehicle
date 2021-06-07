@@ -26,7 +26,7 @@ public class PoliceCar implements IsLandVehicle, IsEmergency{
 
     @Override
     public void soundSiren() {
-        System.out.println("nguing nguing");
+        System.out.println("Nguing nguing");
     }
 
     @Override
